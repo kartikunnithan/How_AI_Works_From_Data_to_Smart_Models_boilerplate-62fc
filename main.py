@@ -33,3 +33,4 @@ while True:
         result = f"{emoji} {color}{sentiment_type} sentiment detected! (Polarity: {polarity:.2f})"
         print(result)
         history.append((user_input, polarity, sentiment_type))
+        
